@@ -20,7 +20,7 @@ public class VendingMachineCLI {
 
 		accountManager = new AccountManager();
 		InventoryManager inventoryController = new InventoryManager();
-		inventoryController.setVendingMachineInventoryMap("E:\\workspace\\java-green-minicapstonemodule1-team0\\main.csv");
+		inventoryController.setVendingMachineInventoryMap("E:\\workspace\\nmarson-tech-elevator\\main.csv");
 		inventoryController.getVendingMachineInventoryMap();
 		MenuController menuController = new MenuController();
 		FileWriter writer = new FileWriter("Log.txt", true);
